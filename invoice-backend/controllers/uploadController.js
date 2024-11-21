@@ -268,4 +268,4 @@ export const uploadFiles = async (req, res) => {
 };
 
 // Multer middleware to handle file uploads (for array of files)
-export const uploadMiddleware = upload.array("files", 5); // Limit to 5 file
+export const uploadMiddleware = upload.array("files", 5); // Limit to 5 files
