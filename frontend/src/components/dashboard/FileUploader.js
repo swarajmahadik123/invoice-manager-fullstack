@@ -55,7 +55,7 @@ function FileUpload() {
     files.forEach((file) => formData.append('files', file));
 
     try {
-      const response = await axios.post('https://invoice-manager-sn7p.onrender.com/api/upload/files', formData, {
+      const response = await axios.post('https://invoice-manager-fullstack.onrender.com/api/upload/files', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
